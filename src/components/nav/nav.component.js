@@ -1,7 +1,7 @@
 
 function Nav() {
     return (
-      <div className="nav">
+      <div className="navigation-container">
         <div className="site-mobile-menu">
             <div className="site-mobile-menu-header">
                 <div className="site-mobile-menu-close mt-3">
@@ -24,13 +24,12 @@ function Nav() {
 
                     <ul className="site-menu js-clone-nav mx-auto d-none d-lg-block">
                         <li className="active"><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Projects</a></li>                        
                         <li className="has-children">
                         <a href="single.html">Photography</a>
                         <ul className="dropdown">
-                            <li><a href="#">Nature</a></li>
-                            <li><a href="#">Portrait</a></li>
-                            <li><a href="#">People</a></li>
-                            <li><a href="#">Architecture</a></li>
+                            <li><a href="#">Film</a></li>
+                            <li><a href="#">Digital</a></li>
                             <li className="has-children">
                             <a href="#">Sub Menu</a>
                             <ul className="dropdown">
@@ -41,7 +40,6 @@ function Nav() {
                             </li>
                         </ul>
                         </li>
-                        <li><a href="services.html">Projects</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
